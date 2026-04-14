@@ -30,8 +30,6 @@ Example:
 - `docs/presentation.md` — talk and presentation guide
 - `demo/sample_output.txt` — sample run outputs
 - `.gitignore` — files to ignore for Git
-- `GITHUB_UPLOAD.md` — GitHub upload instructions
-- `QUICKSTART.bat` / `QUICKSTART.sh` — quick run helpers
 
 ---
 
@@ -78,58 +76,6 @@ cd quantum
 python quantum_subset.py
 ```
 
----
-
-## What to Upload to GitHub
-
-Upload all project files and folders except temporary build files.
-The main files are:
-
-- `README.md`
-- `requirements.txt`
-- `.gitignore`
-- `GITHUB_UPLOAD.md`
-- `QUICKSTART.bat`
-- `QUICKSTART.sh`
-- `classical/subset_sum.cpp`
-- `quantum/quantum_subset.py`
-- `comparison/analysis.md`
-- `docs/explanation.md`
-- `docs/presentation.md`
-- `demo/sample_output.txt`
-
-If you use the `demo` folder for screenshots or output, upload that too.
-
----
-
-## Notes for GitHub
-
-- Keep the README short and clear.
-- Do not include large files like compiled binaries.
-- Make sure `.gitignore` stops files like `subset_sum.exe`, `__pycache__`, and image outputs.
-
----
-
-## Simple Summary
-
-This is a student-level project with:
-- a classical C++ solver,
-- a quantum simulation in Python,
-- a comparison document,
-- and a short guide for running and presenting the idea.
-
-The code and docs are written so someone else can understand them easily.
-
----
-
-## 🏆 Hackathon Positioning
-
-**Category:** Quantum Computing / AI  
-**Problem Solved:** Demonstrating quantum advantage for NP-complete problems  
-**Judges Will Love:** Clarity, innovation, real-world relevance, and confident explanation  
-
----
-
 ## 📖 Documentation
 
 For detailed technical explanations, see:
@@ -140,8 +86,7 @@ For detailed technical explanations, see:
 ---
 
 ## 👨‍💻 Author
-
-**Your Name**  
+        -Sarthak Ardhapure
 B.Tech (2nd Year) | Quantum Computing Enthusiast  
 QuEdX Hackathon - April 14, 2026
 
