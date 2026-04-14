@@ -27,7 +27,6 @@ Example:
 - `quantum/quantum_subset.py` — quantum simulator example
 - `comparison/analysis.md` — comparison of classical and quantum ideas
 - `docs/explanation.md` — technical notes
-- `docs/presentation.md` — talk and presentation guide
 - `demo/sample_output.txt` — sample run outputs
 - `.gitignore` — files to ignore for Git
 
