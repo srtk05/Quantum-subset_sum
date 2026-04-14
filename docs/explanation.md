@@ -4,8 +4,6 @@
 
 This document provides a comprehensive technical explanation of how the Subset Sum Problem connects with quantum computing, the mathematical foundations, and practical implementation details.
 
-**Target Audience:** Judges, peers, and anyone wanting to understand the intersection of classical algorithms and quantum computing.
-
 ---
 
 ## Part 1: Mathematical Foundations
@@ -517,90 +515,8 @@ Status: Active research area
 └─ Quantum supremacy in many domains
 ```
 
-### 6.3 Future of Subset Sum
-
+al remains for specific niches
 ```
-Short-term (now):
-├─ Classical remains best for practical problems
-├─ Quantum simulations show concepts
-└─ Research on hybrid approaches
-
-Mid-term (5-10 years):
-├─ Quantum may beat classical for n > 30-40
-├─ Business applications emerge
-└─ Cryptographic threat becomes real
-
-Long-term (10+ years):
-├─ Quantum dominant for optimization
-├─ New problems enabled by quantum
-└─ Classical remains for specific niches
-```
-
----
-
-## Part 7: Presentation for Judges
-
-### 7.1 The Perfect Pitch (2 minutes)
-
-```
-"Subset Sum is an NP-Complete problem where we must find 
-subsets of numbers that sum to a target value.
-
-Classically, with n elements, we must check 2^n possible 
-subsets—exponential growth makes large problems infeasible.
-
-Quantum computing uses superposition to represent all 2^n 
-subsets simultaneously. Through amplitude amplification 
-(similar to Grover's algorithm), we can boost the probability 
-of correct solutions.
-
-The result: Speedup from O(2^n) to O(2^(n/2))—a quadratic 
-improvement that becomes exponentially significant for large n.
-
-For n=50, this is 33 million times faster!
-
-This project demonstrates how classical NP problems can be 
-mapped to quantum states, with real-world applications in 
-cryptography, optimization, and resource allocation."
-```
-
-### 7.2 Answering Judge Questions
-
-**Q: Is this actually quantum computing?**
-
-A: "This is a quantum algorithm simulation. Real quantum computers 
-are expensive and limited. We demonstrate the quantum principles—
-superposition and amplitude amplification—that would run on actual 
-quantum hardware. The algorithm and speedup analysis are theoretically 
-sound and based on proven quantum computing techniques like Grover's."
-
-**Q: Can you really achieve this speedup?**
-
-A: "Yes, mathematically proven. Grover's algorithm achieves O(√N) 
-speedup for unstructured search over N items. Subset sum is unstructured 
-search, so it directly applies. For cryptographically-sized problems 
-(n>100), this becomes practically important."
-
-**Q: What makes your project unique?**
-
-A: "We bridge classical and quantum thinking by:
-1. Showing the recursion tree of classical backtracking
-2. Mapping it to quantum superposition
-3. Demonstrating amplitude amplification concept
-4. Analyzing real-world impact on cryptography
-This integration rarely seen in student projects."
-
-**Q: What would you improve?**
-
-A: "Future work:
-1. Implement full Grover's algorithm (current demo simplified)
-2. Add constraint handling (weighted subsets)
-3. Run on real quantum hardware (IBM, Google)
-4. Compare with classical for various problem sizes
-5. Integrate machine learning for problem preprocessing"
-```
-
----
 
 ## 📚 References & Further Reading
 
@@ -617,7 +533,3 @@ A: "Future work:
 - IBM Quantum Learning: https://learn.qiskit.org/
 
 ---
-
-**Document Version:** 1.0  
-**Last Updated:** April 2026  
-**For:** Quantum Computing Hackathon - QuEdX 2026
